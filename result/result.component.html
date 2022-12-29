@@ -1,0 +1,36 @@
+
+<div>
+  <div class="heading">
+  
+    <h1>User-Details</h1>
+  </div>
+  
+ <table class="styled-table">
+
+        <thead>
+          <tr>
+            <th class="header">UserName</th>
+            <th class="header">Mobile</th>
+            <th class="header">Email</th>
+            <th class="header">Password</th>
+          </tr>
+        </thead>
+        <tbody>
+            
+ <tr>
+              <td>{{username}}</td>
+              <td>{{mobile}}</td>
+              <td>{{email}}</td>
+              <td>{{password}}</td>
+               </tr>
+              
+        </tbody>
+        
+      </table>
+
+<div class="btn-grp">
+  <button [routerLink]="['/home']">Go to home</button>
+  <button [routerLink]="['/login']">login</button>
+  </div>
+
+

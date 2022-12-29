@@ -1,0 +1,80 @@
+  
+  .button-row {
+    padding-top: 5px;
+  }
+  
+  .button-row a {
+    margin-right: 8px;
+    text-align: center;
+  }
+  
+  .btn-controls .mat-mdc-unelevated-button.mat-primary
+  {
+  margin: 1rem;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  }
+
+  .mat-mdc-unelevated-button.mat-primary {
+    --mdc-filled-button-container-color: rgb(239, 232, 241);
+    --mdc-filled-button-label-text-color: black;
+}
+
+
+.mat-mdc-card {
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    --mdc-elevated-card-container-color: rgb(140, 203, 240);
+    margin-left: 337px;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 45.1rem;
+    margin-top: 0em;
+    position: fixed;
+}
+
+.mat-mdc-card-header {
+  font-family: initial;
+  display: flex;
+  padding: 16px 16px 0;
+  color: bisque;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+
+.mat-mdc-text-field-wrapper.mdc-text-field--outlined .mdc-text-field__input {
+    display: inline-block;
+    color: black;
+}
+.mat-mdc-card-content:last-child {
+    padding-bottom: 69px;
+}
+.mat-card >[_ngcontent-bsx-c102] {
+    margin-left: 7.5em;
+    
+}
+
+
+.mat-mdc-form-field {
+    --mat-mdc-form-field-floating-label-scale: 0.75;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    text-align: left;
+    padding: 10px;
+  }
+ 
+  mat-form-field mat-error {
+    display: none !important;
+ }
+  mat-form-field mat-error:first-child {
+    display: block !important;
+ }
+  
+ .mat-mdc-raised-button.mat-primary.reset
+ {
+  
+  margin-left: 35rem;
+ }
